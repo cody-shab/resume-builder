@@ -1,0 +1,121 @@
+/* let's Style ;) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body styling */
+body {
+    background-color: #b79bea;
+    color: #333;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 7px;
+    margin: 25px;
+}
+
+/* Main container */
+.container {
+    width: 120%;
+    height: 10%;
+    max-width: 800px;
+    background-color: #e9c2d9;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 9px solid rgb(209, 141, 141);
+    border-radius: 10px;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+#profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+section ul li {
+    margin-bottom: 5px;
+}
+
+/* Button styling */
+#toggle-skills-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #9eebd3;
+    color: #010000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#toggle-skills-btn:hover {
+    background-color: #049965;
+    color: white;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header h2 {
+        font-size: 0.9rem;
+    }
+
+    section h2 {
+        font-size: 1.2rem;
+    }
+
+    #toggle-skills-btn {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
